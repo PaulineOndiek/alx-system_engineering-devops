@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr -s ":" "\n" | wc -1
+alias paths="echo \"${PATH//:/$'\n'}\""
